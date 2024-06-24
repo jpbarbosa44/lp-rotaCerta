@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'heading': ['balloo2']
+      },
+      backgroundImage: {
+        'module1': "url('/imgs/module1.png')"
+      }
+    },
   },
   plugins: [],
 }
