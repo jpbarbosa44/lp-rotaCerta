@@ -10,7 +10,7 @@ export function FirstModule() {
             <div className="flex flex-col bg-[#0c3f8c] h-screen flex-1 items-center justify-center">
                <img src={heading} alt="" />
 
-                <button className='h-12 w-60 rounded-full bg-[#fcad0b]'>Saiba mais</button>
+                <a href="https://forms.gle/jYXkrtoxcai7Zpgo8" target="_blank" className='flex items-center justify-center h-12 w-60 rounded-full text-black bg-[#fcad0b]'>SAIBA MAIS</a>
 
                 <div className='flex gap-4 mt-8'>
                     <button><img src={android} alt="" className='w-24' /></button>
