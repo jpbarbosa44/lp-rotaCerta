@@ -1,3 +1,4 @@
+import { FifthModule } from "./components/fifth-module";
 import { FirstModule } from "./components/first-module";
 import { FourthModule } from "./components/fourth-module";
 import { SecondModule } from "./components/second-module";
@@ -11,6 +12,7 @@ export function App() {
       <SecondModule />
       <ThirdModule />
       <FourthModule />
+      <FifthModule />
     </div>
   )
 }

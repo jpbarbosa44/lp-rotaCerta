@@ -16,7 +16,6 @@ export function ThirdModule() {
                 <img src={cell2} className='w-auto' alt="" />
                 <img src={texto} className='w-auto'/>
             </div>
-
         </div>
     )
 }
